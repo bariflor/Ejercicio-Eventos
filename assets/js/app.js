@@ -9,7 +9,7 @@ function creandoDiv(getURL){
 }
 var inputURL = document.getElementById("url");
 function getURL(e){
-	if(e.keycode==13){
+	if(e.keyCode==13){
 		creandoDiv(this.value);
 		this.value = "";
 	}
